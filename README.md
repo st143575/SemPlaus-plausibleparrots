@@ -53,3 +53,5 @@ The implementations of data analysis are saved as jupyter notebooks (.ipynb). In
   - Semantic similarities between words. This could help identify whether certain types of verbs or objects are more associated with plausible or implausible labels.
 
   Please check `preliminary_study/data_analysis_linguistic.ipynb` for details.
+
+Note: The `PROJECT_PATH` in the notebooks is set to '<root_dir_of_this_repo>' which indicates the root path of this repo. After cloning it to your computer, please set it to '<path_to_this_repo>/SemPlaus-plausibleparrots/'.
