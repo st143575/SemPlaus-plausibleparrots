@@ -23,3 +23,12 @@ Make sure you have the following dependencies installed.
     ```bash
     pip install -r requirements.txt
     ```
+    
+### Predict
+For Pap, run ```bash
+    python ed_pap_2.py
+    ```
+    
+For Pep, run ```bash
+    python ed_pep_2.py
+    ```
