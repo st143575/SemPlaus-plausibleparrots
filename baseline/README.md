@@ -6,4 +6,4 @@
 ### We finedtuend Roberta with PAP and PEP-3k datasets
 ### When running this script, remember to configure the data path with your directory.
 ## Datasets
-### The finetuning datasets can be found under datasets/baseline/augmented datasets
+### The finetuning datasets can be found under datasets/preprocessed/baseline
