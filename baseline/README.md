@@ -1,5 +1,10 @@
 # Baselines
-## Roberta zero-shot.ipynb 
+## Zero-shot Inference with RoBERTa
+### Results
+<div  align="center">    
+<img src="./img/eval_scores_pap_baseline_zeroshot.png" width="100%">
+</div>
+
 ### Evaluates Roberta in a zero-shot manner, we use this system as a baseline model.
 ### When running this script, remember to configure the data path with your directory.
 ## Finetuning with labelled data.ipynb
