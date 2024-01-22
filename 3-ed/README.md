@@ -21,7 +21,7 @@ Make sure you have the following dependencies installed.
 - Python 3.11.5
   - Everything in requirements_ed.txt by running
     ```bash
-    pip install -r requirements_ed.txt
+    pip install -r requirements_ed.txt --no-cache-dir
     ```
     
 ### Predict
