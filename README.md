@@ -46,6 +46,6 @@ Note: Running UFET requires another conda environment. Please create and activat
 ### Dataset Construction
 We construct the datasets for our system using the templates specifically designed for (1) injecting both event and entity type knowledge (evt+ent), (2) injecting only event type knowledge (evt), and (3) injecting only entity types knowledge (ent), respectively. Please follow the instructions in `./5-dataset_construction/`.
 
-### Fine-tune and Evaluate Our System
+### System Fine-tuning and Evaluation
 We fine-tune and evaluate our system with the knowledge-enhanced datasets.
 Please follow the instructions in `./6-finetune_and_eval/`.
