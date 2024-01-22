@@ -17,41 +17,31 @@ conda install pip
 
 ### Installation
 Make sure you have the following dependencies installed.
-- Python 3.11.5
+- Python 3.11.7
   - Everything in requirements.txt by running
     ```bash
     pip install -r requirements.txt
     ```
     
 ### Data Analysis
-The implementations of data analysis are saved as jupyter notebooks (.ipynb). In the statistical analysis, we analyze common data statistics for the four datasets Adept, Ellie, PaP and PeP-3k. For each data split (train, eval/dev, test) of each dataset, we analyze the following characteristics:
+Please follow the instructions in `./0-preliminary_study/` for data analysis.
 
-#### Statistical Analysis
-  - Number of examples
-  - Number of each feature (given by column name, e.g., sentence1, sentence2, modifier etc. in Adept), with and without duplicates
-  - Average length, minimal length, maximal length, variance, and standard deviation of textual features (e.g., sentence1 in Adept), tokenized using BERT tokenizer
-  - Frequency and distribution of features with duplicated instances (e.g., modifiers, nouns and labels in Adept)
+### Data Preprocessing and Data Augmentation
+Please follow the instructions in `./1-data_preprocessing` for data preprocessing and augmentation.
 
-  Please check the following notebooks for details:
-  
-    - `preliminary_study/data_statistics/adept/datastatistic_adept_train.ipynb`
-    - `preliminary_study/data_statistics/adept/datastatistic_adept_dev.ipynb`
-    - `preliminary_study/data_statistics/adept/datastatistic_adept_test.ipynb`
-    - `preliminary_study/data_statistics/ellie/datastatistic_ellie.ipynb`
-    - `preliminary_study/data_statistics/pap/datastatistic_pap_train.ipynb`
-    - `preliminary_study/data_statistics/pap/datastatistic_pap_val.ipynb`
-    - `preliminary_study/data_statistics/pap/datastatistic_pap_test.ipynb`
-    - `preliminary_study/data_statistics/pep-3k/datastatistic_pep3k_train.ipynb`
-    - `preliminary_study/data_statistics/pep-3k/datastatistic_pep3k_dev.ipynb`
-    - `preliminary_study/data_statistics/pep-3k/datastatistic_pep3k_test.ipynb`
+### Baselines
+We evaluate two baseline systems on our task: (1) zero-shot inference; and (2) fine-tuning on the sentences preprocessed and augmented from the original (s,v,o)-event triples.
+To run the baselines, please follow the instructions in `./2-baselines/`.
 
-#### Linguistic Analysis
-  - Stop words
-  - N-grams
-  - Part-Of-Speech (POS) tags
-  - Wordcloud that illustrates the most frequent words associated with plausible label and implausible label, respectively.
-  - Semantic similarities between words. This could help identify whether certain types of verbs or objects are more associated with plausible or implausible labels.
+### Event Detection
+TBD
 
-  Please check `preliminary_study/data_analysis_linguistic.ipynb` for details.
+### Ultra Fine-grained Entity Typing
+TBD
 
-Note: The `PROJECT_PATH` in the notebooks is set to '<root_dir_of_this_repo>' which indicates the root path of this repo. After cloning it to your computer, please set it to '<path_to_this_repo>/SemPlaus-plausibleparrots/'.
+### Dataset Construction
+We construct the datasets for our system using the templates specifically designed for (1) injecting both event and entity type knowledge (evt+ent), (2) injecting only event type knowledge (evt), and (3) injecting only entity types knowledge (ent), respectively. Please follow the instructions in `./5-dataset_construction/`.
+
+### Fine-tune and Evaluate Our System
+We fine-tune and evaluate our system with the knowledge-enhanced datasets.
+Please follow the instructions in `./6-finetune_and_eval/`.
