@@ -6,8 +6,8 @@ Modeling Semantic Plausibility WS23/24.
 ### Virtual Environment
 Create and activate a conda environment.
 ```bash
-conda create -n <environment_name> python=3.11
-conda activate <environment_name>
+conda create -n MSPPlausibleParrots python=3.11
+conda activate MSPPlausibleParrots
 ```
 
 Install pip in the conda env.
@@ -40,7 +40,7 @@ Please follow the instructions in `./3-ed/`.
 Note: Running ED requires another conda environment. Please create and activate a new environment, install packages in `requirements_ed.txt` and run ED there.
 
 ### Ultra Fine-grained Entity Typing (UFET)
-Please follow the instructions in `./r-ufet/`.
+Please follow the instructions in `./4-ufet/`.
 Note: Running UFET requires another conda environment. Please create and activate a new environment, install packages in `requirements_et.txt` and run UFET there.
 
 ### Dataset Construction
