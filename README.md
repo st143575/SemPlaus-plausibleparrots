@@ -18,7 +18,6 @@ conda install pip
 ### Installation
 Make sure you have the following dependencies installed.
 - cuda 12.3
-- python 3.11.7
 
 Install packages in requirements.txt by running
   ```bash
