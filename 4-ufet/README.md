@@ -5,8 +5,10 @@ We use CASENT for UFET. Please follow the instructions in their official [GitHub
 ### Virtual Environment
 Create and activate a conda environment.
 ```bash
-conda create -n <environment_name>
-conda activate <environment_name>
+conda create -n casent python=3.10
+conda activate casent
+git clone https://github.com/yanlinf/CASENT.git
+cd CASENT
 ```
 
 Install pip in the conda env.
@@ -23,10 +25,3 @@ Make sure you have the following dependencies installed.
     ```
     
 ### Predict
-For Pap, run ```bash
-    python ed_pap_2.py
-    ```
-    
-For Pep, run ```bash
-    python ed_pep_2.py
-    ```
