@@ -53,5 +53,5 @@ Please follow the instructions in `./6-finetune_and_eval/`.
 
 ## Evaluation Results
 <div  align="left">    
-<img src="./msp_eval_results.jpg" width="90%"/>
+<img src="./msp_eval_results.png" width="90%"/>
 </div>
