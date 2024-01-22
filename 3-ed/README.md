@@ -19,9 +19,9 @@ conda install pip
 ### Installation
 Make sure you have the following dependencies installed.
 - Python 3.11.5
-  - Everything in requirements.txt by running
+  - Everything in requirements_ed.txt by running
     ```bash
-    pip install -r requirements.txt
+    pip install -r requirements_ed.txt
     ```
     
 ### Predict
