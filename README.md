@@ -37,11 +37,12 @@ To run the baselines, please follow the instructions in `./2-baselines/`.
 
 ### Event Detection (ED)
 Please follow the instructions in `./3-ed/`.
-Note: Running ED requires another conda environment. Please create and activate a new environment, install packages in `requirements_ed.txt` and run ED there.
+
+Note: To avoid potential package version conflict, please create and activate a new environment, install packages in `requirements_ed.txt` and run ED there. See the instructions in `./3-ed/` for details.
 
 ### Ultra Fine-grained Entity Typing (UFET)
 Please follow the instructions in `./4-ufet/`.
-Note: Running UFET requires another conda environment. Please create and activate a new environment, install packages in `requirements_et.txt` and run UFET there.
+Note: To avoid potential package version conflict, please create and activate a new environment, install packages in `requirements_et.txt` and run UFET there. See the instructions in `./4-ufet/` for details.
 
 ### Dataset Construction
 We construct the datasets for our system using the templates specifically designed for (1) injecting both event and entity type knowledge (evt+ent), (2) injecting only event type knowledge (evt), and (3) injecting only entity types knowledge (ent), respectively. Please follow the instructions in `./5-dataset_construction/`.
