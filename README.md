@@ -6,7 +6,7 @@ Modeling Semantic Plausibility WS23/24.
 ### Virtual Environment
 Create and activate a conda environment.
 ```bash
-conda create -n <environment_name>
+conda create -n <environment_name> python=3.11
 conda activate <environment_name>
 ```
 
@@ -17,11 +17,13 @@ conda install pip
 
 ### Installation
 Make sure you have the following dependencies installed.
-- Python 3.11.7
-  - Everything in requirements.txt by running
-    ```bash
-    pip install -r requirements.txt
-    ```
+- cuda 12.3
+- python 3.11.7
+
+Install packages in requirements.txt by running
+  ```bash
+  pip install -r requirements.txt --no-cache-dir
+  ```
     
 ### Data Analysis
 Please follow the instructions in `./0-preliminary_study/` for data analysis.
