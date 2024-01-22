@@ -24,7 +24,7 @@ conda install pip --no-cache-dir
 pip install -r requirements_et.txt --no-cache-dir
 ```
 
-### Predict
+Predict fine-grained entities.
 ```bash
 python predict_2.py -i ./input/ -o ./output_2/ -m wikidata
 ```
