@@ -35,11 +35,13 @@ Please follow the instructions in `./1-data_preprocessing` for data preprocessin
 We evaluate two baseline systems on our task: (1) zero-shot inference; and (2) fine-tuning on the sentences preprocessed and augmented from the original (s,v,o)-event triples.
 To run the baselines, please follow the instructions in `./2-baselines/`.
 
-### Event Detection
-TBD
+### Event Detection (ED)
+Please follow the instructions in `./3-ed/`.
+Note: Running ED requires another conda environment. Please create and activate a new environment, install packages in `requirements_ed.txt` and run ED there.
 
-### Ultra Fine-grained Entity Typing
-TBD
+### Ultra Fine-grained Entity Typing (UFET)
+Please follow the instructions in `./r-ufet/`.
+Note: Running UFET requires another conda environment. Please create and activate a new environment, install packages in `requirements_et.txt` and run UFET there.
 
 ### Dataset Construction
 We construct the datasets for our system using the templates specifically designed for (1) injecting both event and entity type knowledge (evt+ent), (2) injecting only event type knowledge (evt), and (3) injecting only entity types knowledge (ent), respectively. Please follow the instructions in `./5-dataset_construction/`.
