@@ -42,6 +42,7 @@ Note: To avoid potential package version conflict, please create and activate a 
 
 ### Ultra Fine-grained Entity Typing (UFET)
 Please follow the instructions in `./4-ufet/`.
+
 Note: To avoid potential package version conflict, please create and activate a new environment, install packages in `requirements_et.txt` and run UFET there. See the instructions in `./4-ufet/` for details.
 
 ### Dataset Construction
