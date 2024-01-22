@@ -50,3 +50,8 @@ We construct the datasets for our system using the templates specifically design
 ### System Fine-tuning and Evaluation
 We fine-tune and evaluate our system with the knowledge-enhanced datasets.
 Please follow the instructions in `./6-finetune_and_eval/`.
+
+## Evaluation Results
+<div  align="left">    
+<img src="./msp_eval_results.jpg" width="90%"/>
+</div>
