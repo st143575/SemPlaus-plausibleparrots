@@ -29,7 +29,7 @@ Install packages in requirements.txt by running
 Please follow the instructions in `./0-preliminary_study/` for data analysis.
 
 ### Data Preprocessing and Data Augmentation
-Please follow the instructions in `./1-data_preprocessing` for data preprocessing and augmentation.
+Please follow the instructions in `./1-data_preprocessing/` for data preprocessing and augmentation.
 
 ### Baselines
 We evaluate two baseline systems on our task: (1) zero-shot inference; and (2) fine-tuning on the sentences preprocessed and augmented from the original (s,v,o)-event triples.
