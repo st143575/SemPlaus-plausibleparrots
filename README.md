@@ -10,7 +10,7 @@ conda create -n MSPPlausibleParrots python=3.11
 conda activate MSPPlausibleParrots
 ```
 
-Install pip in the conda env.
+Install pip in the conda env (if it's not installed by default).
 ```bash
 conda install pip
 ```
