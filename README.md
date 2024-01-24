@@ -25,7 +25,11 @@ Install packages in requirements.txt by running
   ```bash
   pip install -r requirements.txt --no-cache-dir
   ```
-    
+
+### Path Configuration
+PATH is the root path of this repository.
+CACHE_DIR = PATH + "cache/"
+
 ### Data Analysis
 Please follow the instructions in `./0-preliminary_study/` for data analysis.
 
