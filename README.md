@@ -8,6 +8,8 @@ Create and activate a conda environment.
 ```bash
 conda create -n MSPPlausibleParrots python=3.11
 conda activate MSPPlausibleParrots
+git clone https://github.com/st143575/SemPlaus-plausibleparrots.git
+cd SemPlaus-plausibleparrots
 ```
 
 Install pip in the conda env (if it's not installed by default).
