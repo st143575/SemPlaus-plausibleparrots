@@ -1,6 +1,12 @@
 # SemPlaus-plausibleparrots
 Modeling Semantic Plausibility WS23/24.
 
+---
+
+<div  align="center">    
+<img src="./system_architecture.png" width="70%">
+</div>
+
 ## Usage
 
 ### Virtual Environment
