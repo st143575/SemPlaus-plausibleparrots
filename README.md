@@ -1,5 +1,4 @@
-# SemPlaus-plausibleparrots
-Modeling Semantic Plausibility WS23/24.
+# Enhancing Semantic Plausibility Modeling using Entity and Event Knowledge [[Paper]](https://arxiv.org/abs/2408.16937)
 
 ---
 
